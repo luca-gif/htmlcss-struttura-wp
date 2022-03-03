@@ -31,3 +31,12 @@ header .second{
 
 /* MAIN */
 
+section.middle{
+  background-color: #0185fd;
+  height: 300px;
+}
+
+aside.top{
+  background-color: #abcfe7;
+  height: 50px;
+}
