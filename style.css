@@ -48,9 +48,8 @@ section.top{
 aside.col.col-left{
   background-color: #abcfe7;
   width: 25%;
-  height: 400px;
+  height: 800px;
   float: left;
-  border:1px solid red;
 }
 
 section.center{
@@ -62,12 +61,20 @@ section.center{
 
 div.box{
   background-color: #abcfe7;
-  height: 400px;
+  height: 800px;
 }
 
 aside.col.col-right{
   background-color: #abcfe7;
   width: 25%;
-  height: 400px;
+  height: 800px;
   float: right;
+}
+
+/* FOOTER */
+
+footer{
+  background-color: #8801fe;
+  height: 50px;
+  margin-top: 10px;
 }
