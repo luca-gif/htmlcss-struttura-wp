@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header .nav{
+  background-color: purple;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+header .second{
+  background-color:#e1d67a;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* MAIN */
+
