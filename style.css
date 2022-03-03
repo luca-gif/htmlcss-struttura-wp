@@ -30,13 +30,44 @@ header .second{
 }
 
 /* MAIN */
+.corpo-centrale {
+  padding-top:10px;
+  padding-bottom: 10px;
+}
 
 section.middle{
   background-color: #0185fd;
-  height: 300px;
+  
 }
 
-aside.top{
+section.top{
   background-color: #abcfe7;
   height: 50px;
+}
+
+aside.col.col-left{
+  background-color: #abcfe7;
+  width: 25%;
+  height: 400px;
+  float: left;
+  border:1px solid red;
+}
+
+section.center{
+  
+  width: 50%;
+  padding: 0 1%;
+  float: left;
+}
+
+div.box{
+  background-color: #abcfe7;
+  height: 400px;
+}
+
+aside.col.col-right{
+  background-color: #abcfe7;
+  width: 25%;
+  height: 400px;
+  float: right;
 }
